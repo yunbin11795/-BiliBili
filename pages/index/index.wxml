@@ -1,2 +1,2 @@
 <!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<include src="../public/header/header.wxml"/>

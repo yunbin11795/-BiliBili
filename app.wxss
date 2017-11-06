@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import 'pages/public/header/header.wxss';
 .container {
   height: 100%;
   display: flex;

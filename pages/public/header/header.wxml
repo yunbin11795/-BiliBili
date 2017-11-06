@@ -1,2 +1,35 @@
 <!--pages/public/header/header.wxml-->
-<text>pages/public/header/header.wxml</text>
+<view>
+  <view class='nav'>
+    <navigator>
+      <image src='https://s1.hdslb.com/bfs/static/mult/images/logo.png'></image>
+    </navigator>
+    <view class='nav-right'>
+      <navigator>
+        <icon type="search" size='26' />
+      </navigator>
+      <navigator>
+        <span>下载客户端</span>
+      </navigator>
+    </view>
+  </view>
+  <view class='nav-header'>
+    <ul>
+      <li>
+        <navigator>首页</navigator>
+      </li>
+      <li>
+        <navigator>动画</navigator>
+      </li>
+      <li>
+        <navigator>番剧</navigator>
+      </li>
+      <li>
+        <navigator>国创</navigator>
+      </li>
+      <li>
+        <navigator>音乐</navigator>
+      </li>
+    </ul>
+  </view>
+</view>
