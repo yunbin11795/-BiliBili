@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/public/footer/footer",
+    "pages/public/item/item",
+    "pages/public/header/header"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "BiliBili",
+    "navigationBarTextStyle":"black"
+  }
+}
