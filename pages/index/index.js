@@ -5,21 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+      imgUrls:[
+        '../../static/image/1.webp.jpg',
+        '../../static/image/2.webp.jpg',
+        '../../static/image/3.webp.jpg',
+        '../../static/image/4.webp.jpg',
+        '../../static/image/5.webp.jpg'
+      ],
+      // 是否显示面板指示点
+      indicatorDots: false,
+      // 是否自动切换
+      autoplay: true,
+      // 自'动切换时间间隔
+      interval: 5000,
+      // 滑动动画时长
+      duration: 1000
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
+
   },
 
   /**

@@ -1,10 +1,10 @@
 /* pages/public/header/header.wxss */
 .nav {
   display: flex;
-   width:750rpx;
   height: 88rpx;
-  justify-content: space-around;
-  align-items: center
+  justify-content: space-between;
+  align-items: center;
+    padding: 0 30rpx ;
 }
 .nav image{
   height: 56rpx;
@@ -21,4 +21,24 @@
     border-radius:4px;
     padding: 5px;
     margin-left: 50rpx;
+}
+.nav-header ul{
+    display: flex;
+    margin-top: 30rpx;
+    font-size: 14px;
+    color: #b9b9b9;
+    font-weight: bold;
+    justify-content: space-around;
+}
+.nav-header ul:after{
+    content: '>';
+    transform: rotate(90deg);
+}
+.switch{
+    margin-top: 30rpx;
+    height: 234rpx;
+}
+.switch image{
+    height: 100%;
+    width: 100%;
 }
