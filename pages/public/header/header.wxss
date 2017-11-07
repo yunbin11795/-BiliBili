@@ -36,6 +36,8 @@
 }
 .switch{
     margin-top: 30rpx;
+}
+.switch swiper{
     height: 234rpx;
 }
 .switch image{
